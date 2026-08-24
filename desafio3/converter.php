@@ -13,10 +13,10 @@
         $Real = $_REQUEST['valor'];
         $valorConvertido = $Real / 5.15;
 
-        echo "<h2>O valor R$ " . $Real . " equivalem a US$ " . number_format($valorConvertido, 2, ',', '.') . "</h2>";
+        echo "<h2>O valor R$ " . $Real . " equivale a US$ " . number_format($valorConvertido, 2, ',', '.') . "</h2>";
     ?>
     <p><strong>Cotação fixa de R$5,15</strong> informada diretamente no código</p>
-    <button onclick="window.location.href='index.html'">Voltar</button>
+    <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 </html>
